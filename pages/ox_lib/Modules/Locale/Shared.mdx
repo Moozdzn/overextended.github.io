@@ -81,7 +81,7 @@ Additional arguments can be sent to format the locale output.
 
 <u>**Example**</u>
 
-<Tabs items={['JS', 'Lua']}>
+<Tabs items={['Lua', 'JS']}>
   <Tab>
 
   ```lua
@@ -140,3 +140,13 @@ You can create a locale string that references other locales to construct a phra
   </Tab>
 </Tabs>
 
+## lib.getLocale
+
+Gets a locale string from another resource and adds it to the dict.
+
+```lua
+lib.getLocale(resource, key)
+```
+
+- resource: `string`
+- key: `string`
